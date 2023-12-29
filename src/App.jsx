@@ -8,6 +8,7 @@ import Blogs from './components/Blog/Blogs';
 import Testimonial from './components/Testimonials/Testimonial';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
             <Testimonial />
             <Contact />
             <Footer />
+            <Toaster />
         </Router>
     );
 }

@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+SERVICE_ID = 'service_si2bavh'
+
+

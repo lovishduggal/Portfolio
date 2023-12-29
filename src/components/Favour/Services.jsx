@@ -10,10 +10,20 @@ function Services() {
                 </p>
                 <div>
                     <ul className="steps steps-vertical">
-                        <li className="step step-primary">Register</li>
-                        <li className="step step-primary">Choose plan</li>
-                        <li className="step step-primary">Purchase</li>
-                        <li className="step step-primary">Receive Product</li>
+                        <li className="step step-primary">User guides</li>
+                        <li className="step step-primary">
+                            Long form tutorials
+                        </li>
+                        <li className="step step-primary">Blogs & Articles</li>
+                        <li className="step step-primary">
+                            {' '}
+                            Implementation Guides
+                        </li>
+                        <li className="step step-primary">
+                            {' '}
+                            Product documentation
+                        </li>
+                        <li className="step step-primary">Online help</li>
                     </ul>
                 </div>
             </div>

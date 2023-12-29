@@ -4,9 +4,7 @@ function Blogs() {
             <div className="space-y-8">
                 <h2 className="text-5xl font-bold">Blogs</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-                    ab neque explicabo ipsa? Quidem, a. Totam recusandae
-                    aspernatur tempore delectus?
+                    I have worked on a wide range of projects covered different range of DevOps and Cloud topics.
                 </p>
                 <div className="flex items-center justify-center relative">
                     <ul className=" grid  grid-cols-3 gap-x-5 px-8">

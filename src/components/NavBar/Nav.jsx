@@ -6,7 +6,7 @@ function Nav() {
                     <div
                         tabIndex={0}
                         role="button"
-                        className="btn btn-ghost lg:hidden">
+                        className=" btn btn-ghost md:hidden">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-5 w-5"
@@ -41,9 +41,9 @@ function Nav() {
                         </li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">Tania Duggal</a>
+                <a className="btn btn-ghost text-xl">Tania</a>
             </div>
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-center hidden md:flex">
                 <ul className="menu menu-horizontal px-1 font-medium">
                     <li>
                         <a className="text-base" href="#">
@@ -51,7 +51,7 @@ function Nav() {
                         </a>
                     </li>
                     <li>
-                        <a className="text-base" href="#Experience">
+                        <a className="text-base " href="#Experience">
                             Experience
                         </a>
                     </li>
@@ -67,7 +67,7 @@ function Nav() {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn text-base">Book a Meeting</a>
+                <a className="btn text-base">Meet Now</a>
             </div>
         </div>
     );
