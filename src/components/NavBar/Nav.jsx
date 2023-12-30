@@ -1,6 +1,17 @@
+import { useEffect } from 'react';
+import { useState } from 'react';
+
 function Nav() {
+    const [theme, setTheme] = useState('cupcake');
+    const toggleTheme = () => {
+        console.log(theme);
+        setTheme(theme === 'cupcake' ? 'dim' : 'cupcake');
+    };
+    useEffect(() => {
+        document.querySelector('html').setAttribute('data-theme', theme);
+    }, [theme]);
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 sticky top-0 w-full z-20">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div
@@ -67,6 +78,12 @@ function Nav() {
                 </ul>
             </div>
             <div className="navbar-end">
+                <input
+                    type="checkbox"
+                    className="toggle toggle-sm mr-2"
+                    onChange={toggleTheme}
+                />
+
                 <a className="btn text-base">Meet Now</a>
             </div>
         </div>

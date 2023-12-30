@@ -4,63 +4,168 @@ function Blogs() {
             <div className="space-y-8">
                 <h2 className="text-5xl font-bold">Blogs</h2>
                 <p>
-                    I have worked on a wide range of projects covered different range of DevOps and Cloud topics.
+                    I have worked on a wide range of projects covered different
+                    range of DevOps and Cloud topics.
                 </p>
-                <div className="flex items-center justify-center relative">
-                    <ul className=" grid  grid-cols-3 gap-x-5 px-8">
-                        <li className="">
-                            <input
-                                className="peer sr-only"
-                                type="radio"
-                                defaultValue="all"
-                                name="answer"
-                                id="all"
-                                defaultChecked=""
-                            />
-                            <label
-                                className="flex justify-center cursor-pointer  border-b-2 py-1 px-2 text-base focus:outline-none peer-checked:border-transparent peer-checked:border-b-indigo-500 transition-all duration-500 ease-in-out"
-                                htmlFor="all">
-                                All
-                            </label>
-                            <div className="absolute  left-0 p-6 mt-2  rounded-lg w-full transition-all duration-500 ease-in-out  opacity-0 invisible peer-checked:opacity-100 peer-checked:visible peer-checked:translate-x-1 z-20">
-                                Content-1
+                <div>
+                    <div role="tablist" className="tabs tabs-lifted">
+                        <input
+                            type="radio"
+                            name="my_tabs_2"
+                            role="tab"
+                            className="tab"
+                            aria-label="All"
+                            checked
+                        />
+                        <div
+                            role="tabpanel"
+                            className="tab-content bg-base-100 border-base-300 rounded-box px-2 py-4">
+                            <div className="flex gap-4 flex-wrap justify-center">
+                                <div className="card w-64 bg-base-100 shadow-xl">
+                                    <figure>
+                                        <img
+                                            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                            alt="Shoes"
+                                        />
+                                    </figure>
+                                    <div className="card-body">
+                                        <h2 className="card-title">
+                                            Shoes!
+                                            <div className="badge badge-secondary">
+                                                NEW
+                                            </div>
+                                        </h2>
+                                        <p>
+                                            If a dog chews shoes whose shoes
+                                            does he choose?
+                                        </p>
+                                        <div className="card-actions justify-end">
+                                            <div className="badge badge-outline">
+                                                Fashion
+                                            </div>
+                                            <div className="badge badge-outline">
+                                                Products
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </li>
-                        <li className="">
-                            <input
-                                className="peer sr-only"
-                                type="radio"
-                                defaultValue="devops"
-                                name="answer"
-                                id="devops"
-                            />
-                            <label
-                                className="flex justify-center cursor-pointer  border-b-2 py-1 px-2 text-base  focus:outline-none peer-checked:border-transparent peer-checked:border-b-indigo-500 transition-all duration-500 ease-in-out"
-                                htmlFor="devops">
-                                DevOps
-                            </label>
-                            <div className="absolute  left-0 p-6 mt-2  rounded-lg w-full transition-all duration-500 ease-in-out opacity-0 invisible peer-checked:opacity-100 peer-checked:visible peer-checked:translate-x-1 -z-20">
-                                Content-2
+                        </div>
+
+                        <input
+                            type="radio"
+                            name="my_tabs_2"
+                            role="tab"
+                            className="tab"
+                            aria-label="DevOps"
+                            checked
+                        />
+                        <div
+                            role="tabpanel"
+                            className="tab-content bg-base-100 border-base-300 rounded-box px-2 py-4">
+                            <div className="flex gap-4 flex-wrap justify-center">
+                                <div className="card w-64 bg-base-100 shadow-xl">
+                                    <figure>
+                                        <img
+                                            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                            alt="Shoes"
+                                        />
+                                    </figure>
+                                    <div className="card-body">
+                                        <h2 className="card-title">
+                                            Shoes!
+                                            <div className="badge badge-secondary">
+                                                NEW
+                                            </div>
+                                        </h2>
+                                        <p>
+                                            If a dog chews shoes whose shoes
+                                            does he choose?
+                                        </p>
+                                        <div className="card-actions justify-end">
+                                            <div className="badge badge-outline">
+                                                Fashion
+                                            </div>
+                                            <div className="badge badge-outline">
+                                                Products
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </li>
-                        <li className="">
-                            <input
-                                className="peer sr-only"
-                                type="radio"
-                                defaultValue="others"
-                                name="answer"
-                                id="others"
-                            />
-                            <label
-                                className="flex justify-center cursor-pointer  border-b-2 py-1 px-2 text-base focus:outline-none peer-checked:border-transparent peer-checked:border-b-indigo-500 transition-all duration-500 ease-in-out"
-                                htmlFor="others">
-                                Others
-                            </label>
-                            <div className="absolute  left-0 p-6 mt-2  rounded-lg w-full transition-all duration-500 ease-in-out  opacity-0 invisible peer-checked:opacity-100 peer-checked:visible peer-checked:translate-x-1">
-                                Content-3
+                        </div>
+
+                        <input
+                            type="radio"
+                            name="my_tabs_2"
+                            role="tab"
+                            className="tab"
+                            aria-label="Others"
+                            checked
+                        />
+                        <div
+                            role="tabpanel"
+                            className="tab-content bg-base-100 border-base-300 rounded-box px-2 py-4">
+                            <div className="flex gap-4 flex-wrap justify-center">
+                                <div className="card w-64 bg-base-100 shadow-xl">
+                                    <figure>
+                                        <img
+                                            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                            alt="Shoes"
+                                        />
+                                    </figure>
+                                    <div className="card-body">
+                                        <h2 className="card-title">
+                                            Shoes!
+                                            <div className="badge badge-secondary">
+                                                NEW
+                                            </div>
+                                        </h2>
+                                        <p>
+                                            If a dog chews shoes whose shoes
+                                            does he choose?
+                                        </p>
+                                        <div className="card-actions justify-end">
+                                            <div className="badge badge-outline">
+                                                Fashion
+                                            </div>
+                                            <div className="badge badge-outline">
+                                                Products
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="card w-64 bg-base-100 shadow-xl">
+                                    <figure>
+                                        <img
+                                            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                            alt="Shoes"
+                                        />
+                                    </figure>
+                                    <div className="card-body">
+                                        <h2 className="card-title">
+                                            Shoes!
+                                            <div className="badge badge-secondary">
+                                                NEW
+                                            </div>
+                                        </h2>
+                                        <p>
+                                            If a dog chews shoes whose shoes
+                                            does he choose?
+                                        </p>
+                                        <div className="card-actions justify-end">
+                                            <div className="badge badge-outline">
+                                                Fashion
+                                            </div>
+                                            <div className="badge badge-outline">
+                                                Products
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

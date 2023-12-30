@@ -7,4 +7,7 @@ export default {
     ],
     theme: {},
     plugins: [require('daisyui'), require('tw-elements-react/dist/plugin.cjs')],
+    daisyui: {
+        themes: ['cupcake', 'dim'],
+    },
 };
