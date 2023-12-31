@@ -15,7 +15,7 @@ function Blogs() {
                             role="tab"
                             className="tab"
                             aria-label="All"
-                            checked
+                            defaultChecked
                         />
                         <div
                             role="tabpanel"
@@ -24,29 +24,30 @@ function Blogs() {
                                 <div className="card w-64 bg-base-100 shadow-xl">
                                     <figure>
                                         <img
-                                            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1648569856438/XCHCN3-oT.jpg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
                                             alt="Shoes"
                                         />
                                     </figure>
-                                    <div className="card-body">
+                                    <div className="card-body px-4">
                                         <h2 className="card-title">
-                                            Shoes!
+                                            kubescape
                                             <div className="badge badge-secondary">
-                                                NEW
+                                                Recently
                                             </div>
                                         </h2>
+
+                                        <div className="card-actions justify-start">
+                                            <div className="badge badge-outline">
+                                                Docker Engine
+                                            </div>
+                                            <div className="badge badge-outline">
+                                                minikube
+                                            </div>
+                                        </div>
                                         <p>
                                             If a dog chews shoes whose shoes
                                             does he choose?
                                         </p>
-                                        <div className="card-actions justify-end">
-                                            <div className="badge badge-outline">
-                                                Fashion
-                                            </div>
-                                            <div className="badge badge-outline">
-                                                Products
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +59,6 @@ function Blogs() {
                             role="tab"
                             className="tab"
                             aria-label="DevOps"
-                            checked
                         />
                         <div
                             role="tabpanel"
@@ -101,7 +101,6 @@ function Blogs() {
                             role="tab"
                             className="tab"
                             aria-label="Others"
-                            checked
                         />
                         <div
                             role="tabpanel"

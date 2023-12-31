@@ -1,12 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    content: [
-        './index.html',
-        './src/**/*.{js,ts,jsx,tsx}',
-        './node_modules/tw-elements-react/dist/js/**/*.js',
-    ],
+    content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {},
-    plugins: [require('daisyui'), require('tw-elements-react/dist/plugin.cjs')],
+    plugins: [require('daisyui')],
     daisyui: {
         themes: ['cupcake', 'dim'],
     },

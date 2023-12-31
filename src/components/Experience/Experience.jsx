@@ -21,7 +21,7 @@ function Experience() {
                                     <h3 className="text-base font-medium">
                                         DevOps & Fullstack Engineering Intern
                                     </h3>
-                                    <span className="block text-sm base-content text-gray-500">
+                                    <span className="block text-sm base-content ">
                                         Flipr Inovations Pvt. Ltd.
                                     </span>
                                     <span className=" block text-[11px]">
@@ -47,7 +47,7 @@ function Experience() {
                                     <h3 className="text-base font-medium">
                                         DevOps & Fullstack Engineering Intern
                                     </h3>
-                                    <span className="block text-sm base-content text-gray-500">
+                                    <span className="block text-sm base-content ">
                                         Flipr Inovations Pvt. Ltd.
                                     </span>
                                     <span className=" block text-[11px]">
@@ -77,7 +77,7 @@ function Experience() {
                                     <h3 className="text-base font-medium">
                                         DevOps & Fullstack Engineering Intern
                                     </h3>
-                                    <span className="block text-sm base-content text-gray-500">
+                                    <span className="block text-sm base-content ">
                                         Flipr Inovations Pvt. Ltd.
                                     </span>
                                     <span className=" block text-[11px]">
@@ -103,7 +103,7 @@ function Experience() {
                                     <h3 className="text-base font-medium">
                                         DevOps & Fullstack Engineering Intern
                                     </h3>
-                                    <span className="block text-sm base-content text-gray-500">
+                                    <span className="block text-sm base-content ">
                                         Flipr Inovations Pvt. Ltd.
                                     </span>
                                     <span className=" block text-[11px]">
