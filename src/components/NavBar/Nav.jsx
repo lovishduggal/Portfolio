@@ -80,7 +80,7 @@ function Nav() {
             <div className="navbar-end">
                 <input
                     type="checkbox"
-                    className="toggle toggle-sm mr-2"
+                    className="toggle toggle-xs mr-1"
                     onChange={toggleTheme}
                 />
 
