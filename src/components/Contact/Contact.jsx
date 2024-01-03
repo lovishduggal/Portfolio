@@ -15,28 +15,44 @@ function Contact() {
             from_subject: subject,
             message,
         };
-        emailjs
-            .send(
+
+        // emailjs
+        //     .send(
+        //         'service_si2bavh',
+        //         'template_pc9shoq',
+        //         data,
+        //         'hmep9d6y_TJPblmt5'
+        //     )
+        //     .then(() => {
+        //         toast.success('The Email has sent successfully');
+        //     })
+        //     .catch(() => {
+        //         toast.error(
+        //             'There is an error sending the email, please try again'
+        //         );
+        //     });
+        toast.promise(
+            emailjs.send(
                 'service_si2bavh',
                 'template_pc9shoq',
                 data,
                 'hmep9d6y_TJPblmt5'
-            )
-            .then(() => {
-                toast.success('The Email has sent successfully');
-            })
-            .catch(() => {
-                toast.error(
-                    'There is an error sending the email, please try again'
-                );
-            });
+            ),
+            {
+                loading: 'Sending...',
+                success: 'The Email has sent successfully',
+                error: 'There is an error sending the email, please try again',
+            }
+        );
         console.log(name, email, subject, message);
     };
     return (
         <div className="max-w-7xl mx-auto my-16  p-4" id="">
             <div className="space-y-8">
-                <h2 className="text-5xl font-bold">Contact</h2>
-                <p>Feel free to reach out to me for any questions</p>
+                <h2 className="text-5xl font-bold text-center">Contact</h2>
+                <p className="text-center">
+                    Feel free to reach out to me for any questions.
+                </p>
                 <div className="flex items-center justify-center">
                     <div className="w-[400px] sm:w-[500px]">
                         <h3 className="text-3xl font-medium">Email Us</h3>

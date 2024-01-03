@@ -37,7 +37,7 @@ export const experiences = [
 
 //* Blogs data:
 import K8s from '../assets/Blogs/K8s.png';
-const blogs = [
+export const blogs = [
     {
         blogImgURL:
             'https://cdn.hashnode.com/res/hashnode/image/upload/v1672939328614/c2aee5ea-eb42-456a-9d24-10fb31421a82.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp',
@@ -57,7 +57,7 @@ const blogs = [
             'Validating K8s configuration files to prevent misconfiguration',
         TechnologiesUsed: ['Civo ', 'K8s ', 'Helm'],
         blogStart:
-            'Kubernetes has emerged as the industry standard for container orchestration, empowering developers to streamline the deployment and management of applications',
+            'Kubernetes has emerged as the industry standard for container orchestration, empowering developers to streamline the deployment and management of applications.',
     },
     {
         blogImgURL:
@@ -67,7 +67,7 @@ const blogs = [
         blogName: 'Getting started with kubescape',
         TechnologiesUsed: ['KubeScape', 'K8s', 'security'],
         blogStart:
-            'Kubescape is an open-source tool by Armo. It scans our k8s clusters, YAML files, and Helm charts, finding vulnerabilities and detecting misconfigurations according to some frameworks like MITRE, NSA, etc',
+            'Kubescape is an open-source tool by Armo. It scans our k8s clusters, YAML files, and Helm charts, finding vulnerabilities and detecting misconfigurations according to some frameworks like MITRE, NSA, etc.',
     },
     {
         blogImgURL:
@@ -86,7 +86,7 @@ const blogs = [
         blogName: 'Linux Required to Get Started with DevOps',
         TechnologiesUsed: ['Linux', 'DevOps'],
         blogStart:
-            "Welcome you to this blog. We'll cover all the required Linux for getting started with DevOps or those who wanna learn Linux in a very understandable manner. This is part 1 of Linux Required to Get Started",
+            "Welcome you to this blog. We'll cover all the required Linux for getting started with DevOps or those who wanna learn Linux in a very understandable manner. This is part 1 of Linux Required to Get Started.",
     },
     {
         blogImgURL:
@@ -195,43 +195,41 @@ import Rajendra from '../assets/Testimonials/Rajendra.jpg';
 import Srinivas from '../assets/Testimonials/Srinivas.jpg';
 import Paakhi from '../assets/Testimonials/Paakhi.jpg';
 import Suhas from '../assets/Testimonials/Suhas.jpg';
-// export const testimonials = [
-//     {
-//         imgURL: Nitish,
-//         message: "Amazing Tania! That's so well written in simple language",
-//     },
-//     {
-//         imgURL: Shivani,
-//         message: 'Very well explained. Great writing Tania',
-//     },
-//     {
-//         imgURL: Godwin,
-//         message:
-//             'Lovely written piece. Just got to know about CNCF from this article. It was worth reading',
-//     },
-//     {
-//         imgURL: Kelvin,
-//         message: `Nice blog Tania. It will help to build my project. ${(
-//             <br />
-//         )} Thankyou.`,
-//     },
-//     {
-//         imgURL: Rajendra,
-//         message: `Thankyou for such a nice article Tania. ${(
-//             <br />
-//         )} Keep up the good work.`,
-//     },
-//     {
-//         imgURL: Srinivas,
-//         message: "That's an awesome read Tania",
-//     },
-//     {
-//         imgURL: Paakhi,
-//         message:
-//             'Such an insightful and easily understandable content. Loved reading it',
-//     },
-//     {
-//         imgURL: Suhas,
-//         message: "I've seen some of your articles, they are great",
-//     },
-// ];
+export const testimonials = [
+    {
+        imgURL: Nitish,
+        message: "Amazing Tania! That's so well written in simple language",
+    },
+    {
+        imgURL: Shivani,
+        message: 'Very well explained. Great writing Tania',
+    },
+    {
+        imgURL: Godwin,
+        message:
+            'Lovely written piece. Just got to know about CNCF from this article. It was worth reading',
+    },
+    {
+        imgURL: Kelvin,
+        message: `Nice blog Tania. It will help to build my project.
+           Thankyou`,
+    },
+    {
+        imgURL: Rajendra,
+        message: `Thankyou for such a nice article Tania.
+           Keep up the good work`,
+    },
+    {
+        imgURL: Srinivas,
+        message: "That's an awesome read Tania",
+    },
+    {
+        imgURL: Paakhi,
+        message:
+            'Such an insightful and easily understandable content. Loved reading it',
+    },
+    {
+        imgURL: Suhas,
+        message: "I've seen some of your articles, they are great",
+    },
+];
