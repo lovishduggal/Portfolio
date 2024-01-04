@@ -16,15 +16,16 @@ function Testimonial() {
                             <div
                                 key={testimonial.message}
                                 className="carousel-item">
-                                <div className="w-[300px] h-[280px] card bg-base-300 rounded-box place-items-center justify-center p-4">
+                                <div className="h-[280px] card bg-base-300 rounded-box place-items-center justify-center p-4 ">
                                     {' '}
-                                    <div className="w-[280px]  flex items-center justify-center flex-col gap-4">
+                                    <div className="w-[280px] flex items-center justify-center flex-col gap-4">
                                         <div className="avatar">
                                             <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                                                 <img src={testimonial.imgURL} />
                                             </div>
                                         </div>
-                                        <p className="text-center text-base">
+                                        <div>{testimonial.name}</div>
+                                        <p className="text-center text-base h-[72px]">
                                             <p>{testimonial.message}.</p>
                                         </p>
                                     </div>

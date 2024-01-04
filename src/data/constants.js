@@ -70,6 +70,7 @@ export const blogs = [
             'Kubescape is an open-source tool by Armo. It scans our k8s clusters, YAML files, and Helm charts, finding vulnerabilities and detecting misconfigurations according to some frameworks like MITRE, NSA, etc.',
     },
     {
+        id: 'others',
         blogImgURL:
             'https://cdn.hashnode.com/res/hashnode/image/upload/v1655027647726/lK2Gb0-Zd.jpg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp',
         blogURL: 'https://duggaltania.hashnode.dev/cncf-landscape',
@@ -158,6 +159,7 @@ export const blogs = [
         blogStart: `Prometheus captures and stores events in real time. Memory consumption, network utilization, or individual incoming requests are examples of events that may be relevant to your application.`,
     },
     {
+        id: 'others',
         blogImgURL:
             'https://cdn.hashnode.com/res/hashnode/image/upload/v1660356833174/0tCMD4wBK.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp',
         blogURL:
@@ -172,6 +174,7 @@ export const blogs = [
         blogStart: `The term hardware is used to refer to the physical Components of any electronic devices such as the CPU, Peripheral Devices and it's memory.`,
     },
     {
+        id: 'others',
         blogImgURL:
             'https://cdn.hashnode.com/res/hashnode/image/upload/v1660402192966/QQZwdWOTb.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp',
         blogURL: 'https://duggaltania.hashnode.dev/overview-of-cloud-computing',
@@ -197,38 +200,46 @@ import Paakhi from '../assets/Testimonials/Paakhi.jpg';
 import Suhas from '../assets/Testimonials/Suhas.jpg';
 export const testimonials = [
     {
+        name: 'Nitish',
         imgURL: Nitish,
         message: "Amazing Tania! That's so well written in simple language",
     },
     {
+        name: 'Shivani',
         imgURL: Shivani,
         message: 'Very well explained. Great writing Tania',
     },
     {
+        name: 'Godwin',
         imgURL: Godwin,
         message:
             'Lovely written piece. Just got to know about CNCF from this article. It was worth reading',
     },
     {
+        name: 'Kelvin',
         imgURL: Kelvin,
         message: `Nice blog Tania. It will help to build my project.
            Thankyou`,
     },
     {
+        name: 'Rajendra',
         imgURL: Rajendra,
         message: `Thankyou for such a nice article Tania.
            Keep up the good work`,
     },
     {
+        name: 'Srinivas',
         imgURL: Srinivas,
         message: "That's an awesome read Tania",
     },
     {
+        name: 'Paakhi',
         imgURL: Paakhi,
         message:
             'Such an insightful and easily understandable content. Loved reading it',
     },
     {
+        name: 'Suhas',
         imgURL: Suhas,
         message: "I've seen some of your articles, they are great",
     },

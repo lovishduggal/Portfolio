@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Nav() {
     const [theme, setTheme] = useState('cupcake');
     const toggleTheme = () => {
-        console.log(theme);
         setTheme(theme === 'cupcake' ? 'dim' : 'cupcake');
     };
     useEffect(() => {
@@ -36,19 +36,29 @@ function Nav() {
                         tabIndex={0}
                         className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-medium ">
                         <li>
-                            <a className="text-base">About</a>
+                            <a className="text-base" href="#About">
+                                About
+                            </a>
                         </li>
                         <li>
-                            <a className="text-base">Experience</a>
+                            <a className="text-base" href="#Experience">
+                                Experience
+                            </a>
                         </li>
                         <li>
-                            <a className="text-base">Services</a>
+                            <a className="text-base" href="#Services">
+                                Services
+                            </a>
                         </li>
                         <li>
-                            <a className="text-base">Blog</a>
+                            <a className="text-base" href="#Blog">
+                                Blog
+                            </a>
                         </li>
                         <li>
-                            <a className="text-base">Contact</a>
+                            <a className="text-base" href="#Contact">
+                                Contact
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -57,23 +67,29 @@ function Nav() {
             <div className="navbar-center hidden md:flex">
                 <ul className="menu menu-horizontal px-1 font-medium">
                     <li>
-                        <a className="text-base" href="#">
+                        <a className="text-base" href="#About">
                             About
                         </a>
                     </li>
                     <li>
-                        <a className="text-base " href="#Experience">
+                        <a className="text-base" href="#Experience">
                             Experience
                         </a>
                     </li>
                     <li>
-                        <a className="text-base">Services</a>
+                        <a className="text-base" href="#Services">
+                            Services
+                        </a>
                     </li>
                     <li>
-                        <a className="text-base">Blog</a>
+                        <a className="text-base" href="#Blog">
+                            Blog
+                        </a>
                     </li>
                     <li>
-                        <a className="text-base">Contact</a>
+                        <a className="text-base" href="#Contact">
+                            Contact
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -84,7 +100,12 @@ function Nav() {
                     onChange={toggleTheme}
                 />
 
-                <a className="btn text-base">Meet Now</a>
+                <Link
+                    to="https://t.co/3qY6312KB2"
+                    target="blank"
+                    className="btn text-base">
+                    Meet Now
+                </Link>
             </div>
         </div>
     );
