@@ -4,7 +4,7 @@ function Hero() {
         <div
             className="hero min-h-[80vh] bg-base-200 text-center md:text-start"
             id="About">
-            <div className="hero-content flex-col md:flex-row  shadow-2xl">
+            <div className="hero-content flex-col md:flex-row min-h-[60vh] shadow-2xl">
                 <div className="p-8">
                     {' '}
                     <img
