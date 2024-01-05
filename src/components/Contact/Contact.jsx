@@ -38,7 +38,7 @@ function Contact() {
                     Feel free to reach out to me for any questions.
                 </p>
                 <div className="flex items-center justify-center">
-                    <div className="sm:w-[500px]">
+                    <div className="w-[300px] sm:w-[500px]">
                         <h3 className="text-3xl font-medium">Email Us</h3>
                         <form
                             className="card-body p-6 border rounded-xl textarea-bordered"
