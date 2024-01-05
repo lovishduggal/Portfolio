@@ -33,8 +33,8 @@ function Contact() {
     return (
         <div className="max-w-7xl mx-auto my-16  p-4" id="Contact">
             <div className="space-y-8">
-                <h2 className="text-5xl font-bold text-center">Contact</h2>
-                <p className="text-center">
+                <h2 className="text-5xl font-semibold text-center">Contact</h2>
+                <p className="text-center text-lg">
                     Feel free to reach out to me for any questions.
                 </p>
                 <div className="flex items-center justify-center">

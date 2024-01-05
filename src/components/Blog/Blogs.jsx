@@ -4,9 +4,9 @@ import { blogs } from '../../data/constants';
 function Blogs() {
     return (
         <div className="max-w-7xl mx-auto my-16 p-4" id="Blog">
-            <div className="space-y-8">
-                <h2 className="text-5xl font-bold text-center">Blogs</h2>
-                <p className="text-center md:w-[700px] mx-auto">
+            <div className="space-y-6">
+                <h2 className="text-5xl font-semibold text-center">Blogs</h2>
+                <p className="text-center md:w-[700px] mx-auto text-lg">
                     I have worked on a wide range of projects covered different
                     topics of DevOps and Cloud.
                 </p>
@@ -25,7 +25,10 @@ function Blogs() {
                             className="tab-content bg-base-100 border-base-300 rounded-box px-2 py-4">
                             <div className="flex gap-8 flex-wrap justify-center items-center">
                                 {blogs.map((blog) => (
-                                    <Link key={blog.blogName} to={blog.blogURL}>
+                                    <Link
+                                        key={blog.blogName}
+                                        to={blog.blogURL}
+                                        target="_blank">
                                         <div className="card w-64  bg-base-100 shadow-xl h-[389px]">
                                             <figure>
                                                 <img
@@ -75,7 +78,8 @@ function Blogs() {
                                         return (
                                             <Link
                                                 key={blog.blogName}
-                                                to={blog.blogURL}>
+                                                to={blog.blogURL}
+                                                target="_blank">
                                                 <div className="card w-64  bg-base-100 shadow-xl h-[389px]">
                                                     <figure>
                                                         <img
@@ -127,14 +131,15 @@ function Blogs() {
                         />
                         <div
                             role="tabpanel"
-                            className="tab-content bg-base-100 border-base-300 rounded-box px-2 py-4">
+                            className="tab-content bg-base-100 border-base-300 rounded-box px-2 py-4 ">
                             <div className="flex gap-8 flex-wrap justify-center items-center">
                                 {blogs.map((blog) => {
                                     if (blog.id === 'others')
                                         return (
                                             <Link
                                                 key={blog.blogName}
-                                                to={blog.blogURL}>
+                                                to={blog.blogURL}
+                                                target="_blank">
                                                 <div className="card w-64  bg-base-100 shadow-xl h-[389px]">
                                                     <figure>
                                                         <img

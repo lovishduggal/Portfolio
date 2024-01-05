@@ -2,8 +2,8 @@ function Services() {
     return (
         <div className="max-w-7xl mx-auto my-16 p-4" id="Services">
             <div className="space-y-8">
-                <h2 className="text-5xl font-bold text-center">Services</h2>
-                <p className="text-center md:w-[700px] mx-auto">
+                <h2 className="text-5xl font-semibold text-center">Services</h2>
+                <p className="text-center md:w-[700px] mx-auto text-lg">
                     Elevating technical narratives with DevOps by forging a
                     seamless bond between development and operations through
                     concise, compelling content.
