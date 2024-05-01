@@ -3,12 +3,14 @@ import Smiit from '../assets/Experience/SMIIT.jpg';
 import Civo from '../assets/Experience/Civo.jpg';
 import WeMakesDevs from '../assets/Experience/WeMakesDevs.jpg';
 import kubesimplify from '../assets/Experience/kubesimplify.jpg';
+import Onepane from '../assets/Experience/onepaneai_logo.jpg';
+import PerfectScale from '../assets/Experience/perfectscale_logo.jpg';
 export const experiences = [
     {
         companyImgURL: Smiit,
         job: 'Cloud & DevOps Tech Writer',
         companyName: 'SMIIT',
-        date: 'Contract - Feb 2023 - June 2023',
+        date: 'Contract',
         worked: 'I created tutorials, blog posts, and articles about Kubernetes and DevOps technologies. I analyzed complicated technical topics and came up with solutions for documentation.',
     },
     {
@@ -33,11 +35,38 @@ export const experiences = [
         date: 'Community',
         worked: 'Focusing on simplifying cloud-native content and raising awareness through writing and speaking.',
     },
+
+    {
+        companyImgURL: Onepane,
+        job: 'K8s & DevOps Tech Writer',
+        companyName: 'Onepane',
+        date: 'Intern',
+        worked: 'Focused on building content around Observalibilty and k8s',
+    },
+
+    {
+        companyImgURL: PerfectScale,
+        job: 'K8s Tech Writer',
+        companyName: 'PerfectScale',
+        date: 'Freelance',
+        worked: 'Provides tutorials, how-to-guide, troubleshooting guides around k8s and emerging technologies',
+    },
 ];
 
 //* Blogs data:
 import K8s from '../assets/Blogs/K8s.png';
 export const blogs = [
+    {
+        blogImgURL:
+            'https://blog.onepane.ai/content/images/size/w2000/2024/02/Untitled-2023-11-29-1752-2.png',
+        blogURL:
+            'https://blog.onepane.ai/blog/building-your-own-idp-guide-to-getting-started-with-backstage',
+        blogName:
+            'Building Your Own IDP: Guide to Getting Started with Backstage',
+        TechnologiesUsed: ['Backstage', 'Observability', 'Software Templates'],
+        blogStart:
+            'Things are getting tangled and complicated. You imagine a forest.',
+    },
     {
         blogImgURL:
             'https://cdn.hashnode.com/res/hashnode/image/upload/v1672939328614/c2aee5ea-eb42-456a-9d24-10fb31421a82.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp',
@@ -47,7 +76,7 @@ export const blogs = [
             'Deploying Java Application using Docker and Kubernetes- DevOps Project',
         TechnologiesUsed: ['Java', 'Docker', 'K8s'],
         blogStart:
-            'In this blog, We going to see "How to Deploy a Java Application using Docker and Kubernetes”',
+            'In this blog, We going to see "How to Deploy a Java Application using Docker and Kubernetes.',
     },
     {
         blogImgURL: K8s,

@@ -8,7 +8,7 @@ function Blogs() {
                 <h2 className="text-5xl font-semibold text-center">Blogs</h2>
                 <p className="text-center md:w-[700px] mx-auto text-lg">
                     I have worked on a wide range of projects covered different
-                    topics of DevOps and Cloud.
+                    topics of DevOps, K8s and Cloud.
                 </p>
                 <div>
                     <div role="tablist" className="tabs tabs-lifted">
