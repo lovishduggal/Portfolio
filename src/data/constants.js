@@ -58,9 +58,19 @@ import K8s from '../assets/Blogs/K8s.png';
 export const blogs = [
     {
         blogImgURL:
+            'https://assets-global.website-files.com/635e4ccf77408db6bd802ae6/663949665869f67e673b5b97_Group%205123-p-1080.png',
+        blogURL: 'https://www.perfectscale.io/blog/createcontainerconfigerror',
+        blogName:
+            'The Ultimate Guide: Kubernetes CreateContainerConfigError and CreateContainerError',
+        TechnologiesUsed: ['Kubernetes'],
+        blogStart:
+            'CreateContainerConfigError and CreateContainerError error messages play a crucial role in effective monitoring and troubleshooting.',
+    },
+    {
+        blogImgURL:
             'https://blog.onepane.ai/content/images/size/w2000/2024/02/Untitled-2023-11-29-1752-2.png',
         blogURL:
-            'https://blog.onepane.ai/blog/building-your-own-idp-guide-to-getting-started-with-backstage',
+            'https://medium.com/onepane/building-your-own-idp-guide-to-getting-started-with-backstage-babb8c2bd34f',
         blogName:
             'Building Your Own IDP: Guide to Getting Started with Backstage',
         TechnologiesUsed: ['Backstage', 'Observability', 'Software Templates'],
