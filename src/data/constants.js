@@ -58,6 +58,35 @@ import K8s from '../assets/Blogs/K8s.png';
 export const blogs = [
     {
         blogImgURL:
+            'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/6686b25556f99f4116bc4d39_Group%205396-p-1080.png',
+        blogURL: 'https://www.perfectscale.io/blog/kubernetes-node-notready',
+        blogName:
+            'Kubernetes Node NotReady: Troubleshoot Common Causes & Best Practices',
+        TechnologiesUsed: ['Kubernetes', 'Troubleshooting'],
+        blogStart:
+            'Struggling with OOMKilled errors in your Kubernetes clusters? Learn what causes these issues, how to troubleshoot them',
+    },
+    {
+        blogImgURL:
+            'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/667a78c52ceb922ab75ebbbb_Group%205339-p-1080.png',
+        blogURL: 'https://www.perfectscale.io/blog/oomkilled',
+        blogName: 'How to fix OOMKilled in Kubernetes',
+        TechnologiesUsed: ['Kubernetes', 'Troubleshooting'],
+        blogStart:
+            'Struggling with OOMKilled errors in your Kubernetes clusters? Learn what causes these issues, how to troubleshoot them, and best practices to prevent OOMKilled events for optimal container performance.',
+    },
+    {
+        blogImgURL:
+            'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/66614ebb6c475f3369206517_Group%205308-p-1080.png',
+        blogURL:
+            'https://www.perfectscale.io/blog/imagepullbackoff-troubleshooting',
+        blogName: 'ImagePullBackOff: Troubleshooting Tips and Tricks',
+        TechnologiesUsed: ['Kubernetes', 'Troubleshooting'],
+        blogStart:
+            'The ImagePulBackOff error is the most common Kubernetes error that DevOps engineers face in their day-to-day lives.',
+    },
+    {
+        blogImgURL:
             'https://assets-global.website-files.com/635e4ccf77408db6bd802ae6/663949665869f67e673b5b97_Group%205123-p-1080.png',
         blogURL: 'https://www.perfectscale.io/blog/createcontainerconfigerror',
         blogName:
