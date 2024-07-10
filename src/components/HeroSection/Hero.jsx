@@ -19,7 +19,7 @@ function Hero() {
                     </h1>
                     <div>
                         <div className="text-2xl font-semibold ">
-                            I am a DevOps Writer
+                            DevOps & Cloud-Native Writer
                         </div>
                         <p className="text-xl font-normal py-2">
                             Through the power of words, I help people understand
