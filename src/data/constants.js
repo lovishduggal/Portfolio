@@ -5,6 +5,8 @@ import WeMakesDevs from '../assets/Experience/WeMakesDevs.jpg';
 import kubesimplify from '../assets/Experience/kubesimplify.jpg';
 import Onepane from '../assets/Experience/onepaneai_logo.jpg';
 import PerfectScale from '../assets/Experience/perfectscale_logo.jpg';
+import Cerbos from '../assets/Experience/cerbos.jpeg';
+import KubeOps from '../assets/Experience/kubeOps.jpeg';
 export const experiences = [
   {
     companyImgURL: Smiit,
@@ -45,7 +47,7 @@ export const experiences = [
     job: 'K8s & DevOps Tech Writer',
     companyName: 'Onepane',
     date: 'Intern',
-    worked: 'Focused on building content around Observalibilty and k8s',
+    worked: 'Focused on building content around Observalibilty and k8s.',
   },
 
   {
@@ -54,13 +56,55 @@ export const experiences = [
     companyName: 'PerfectScale',
     date: 'Freelance',
     worked:
-      'Provides tutorials, how-to-guide, troubleshooting guides around k8s and emerging technologies',
+      'Provides tutorials, how-to-guide, troubleshooting guides around k8s and emerging technologies.',
+  },
+  {
+    companyImgURL: Cerbos,
+    job: 'DevOps and K8s Tech Writer',
+    companyName: 'Cerbos',
+    date: 'Freelance',
+    worked:
+      'Build content around Cloud Native World, how to guide and tutorials.',
+  },
+  {
+    companyImgURL: KubeOps,
+    job: 'DevOps Eng and Writer',
+    companyName: 'KubeOps Consulting',
+    date: 'Freelance',
+    worked: 'Pure worked towards Devops and automation, online help and docs.',
   },
 ];
 
 //* Blogs data:
 import K8s from '../assets/Blogs/K8s.png';
 export const blogs = [
+  {
+    blogImgURL:
+      'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/66a8886619b7f5a02826f423_Group%205569.png',
+    blogURL: 'https://www.perfectscale.io/blog/kubernetes-v1-30',
+    blogName: `Kubernetes v1.30: What's New and Improved?`,
+    TechnologiesUsed: ['Kubernetes'],
+    blogStart: `Kubernetes 1.30, "Uwubernetes," marks the first release of 2024. This version brings 45 enhancements to the table, including 10 new or improved Alpha features, 18 Beta features enabled by default, and 17 features graduating to Stable status.`,
+  },
+  {
+    blogImgURL:
+      'https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg1jj8skdc1vrlorlguyo.jpeg',
+    blogURL: 'https://dev.to/cerbos/introduction-to-rbac-in-kubernetes-5hh5',
+    blogName: 'Introduction to RBAC in Kubernetes',
+    TechnologiesUsed: ['Kubernetes', 'RBAC', 'Authorization'],
+    blogStart:
+      'In this article, you will learn what RBAC is, the key challenges and approaches to managing RBAC in Kubernetes, and how Cerbos can help you in your application security.',
+  },
+  {
+    blogImgURL:
+      'https://www.kubeblogs.com/content/images/size/w2000/2024/07/kb-ima-1.png',
+    blogURL:
+      'https://www.kubeblogs.com/explore-all-the-new-features-in-kubernetes-1-30',
+    blogName: 'Explore all the new features in Kubernetes 1.30',
+    TechnologiesUsed: ['Kubernetes', '1.30'],
+    blogStart:
+      'Kubernetes 1.30, nicknamed "Uwubernetes," marks the first release of 2024. This release brings 45 enhancements, including 10 new or improved Alpha features, 18 Beta features enabled by default, and 17 features graduating to Stable.',
+  },
   {
     blogImgURL:
       'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/66990d7172b221ba3f9328b0_Group%205545.png',
@@ -79,7 +123,7 @@ export const blogs = [
       'Kubernetes Node NotReady: Troubleshoot Common Causes & Best Practices',
     TechnologiesUsed: ['Kubernetes', 'Troubleshooting'],
     blogStart:
-      'Struggling with OOMKilled errors in your Kubernetes clusters? Learn what causes these issues, how to troubleshoot them',
+      'Struggling with OOMKilled errors in your Kubernetes clusters? Learn what causes these issues, how to troubleshoot them.',
   },
   {
     blogImgURL:
@@ -226,7 +270,7 @@ export const blogs = [
       'https://magnificent-pisces-43f.notion.site/Infrastructure-as-Code-IaC-A-Guide-to-Automating-Infrastructure-Management-9b16548c78414347bb23409b3b830ff7',
     blogName: 'Infrastructure as Code',
     TechnologiesUsed: ['Automation', 'Ansible', 'Chef', 'Puppet'],
-    blogStart: `IaC is the process of managing and provisioning infrastructure through machine-readable definition files, rather than manual processes`,
+    blogStart: `IaC is the process of managing and provisioning infrastructure through machine-readable definition files, rather than manual processes.`,
   },
   {
     blogImgURL:
