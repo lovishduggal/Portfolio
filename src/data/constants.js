@@ -80,6 +80,39 @@ import K8s from '../assets/Blogs/K8s.png';
 export const blogs = [
   {
     blogImgURL:
+      'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/66fb9b9634e3e936a66b70a7_Frame%20313955.png',
+    blogURL: 'https://www.perfectscale.io/blog/karpenter-vs-cluster-autoscaler',
+    blogName: `Karpenter vs Cluster Autoscaler: Choosing the Right Kubernetes Scaling Strategy`,
+    TechnologiesUsed: ['Kubernetes', 'Karpenter', 'Autoscaling'],
+    blogStart: `As Kubernetes continues to dominate the container orchestration landscape, efficient scaling of clusters remains a critical concern for developers and teams.`,
+  },
+  {
+    blogImgURL:
+      'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/66c49037c9e147564807e422_Group%205616.png',
+    blogURL: 'https://www.perfectscale.io/blog/kubernetes-v1-31',
+    blogName: `Kubernetes v1.31: What's New and Improved?`,
+    TechnologiesUsed: ['Kubernetes'],
+    blogStart: `Kubernetes 1.31, codenamed "Elli," marks the first release after Kubernetes' 10th anniversary. This version introduces 45 enhancements, including 11 features graduating to stable status, several beta improvements, and exciting new alpha features.`,
+  },
+  {
+    blogImgURL:
+      'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/66b9ddb5b2f2ebb07a27f28d_Group%205586.png',
+    blogURL:
+      'https://www.perfectscale.io/blog/kubernetes-vertical-pod-autoscaler',
+    blogName: `Vertical Pod Autoscaler`,
+    TechnologiesUsed: ['Kubernetes', 'Auto-scaling'],
+    blogStart: `In this article, we’ll explore the VPA(Vertical Pod Autoscaler), what it is, how it works, how it relates to HPA, the implementation of VPA, using VPA with HPA, VPA’s best practices, and limitations.`,
+  },
+  {
+    blogImgURL:
+      'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/66cf5651dd272c74ca4f8fbc_Group%205618.png',
+    blogURL: 'https://www.perfectscale.io/blog/kubernetes-autoscaler',
+    blogName: `Cluster Auto-scaler`,
+    TechnologiesUsed: ['Kubernetes', 'Auto-scaling'],
+    blogStart: `Kubernetes Cluster Autoscaler (CA) adjusts the number of nodes in the cluster based on pod scheduling failures or when nodes are underutilized.`,
+  },
+  {
+    blogImgURL:
       'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/66a8886619b7f5a02826f423_Group%205569.png',
     blogURL: 'https://www.perfectscale.io/blog/kubernetes-v1-30',
     blogName: `Kubernetes v1.30: What's New and Improved?`,
