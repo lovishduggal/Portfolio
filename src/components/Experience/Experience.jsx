@@ -223,6 +223,36 @@ function Experience() {
               </p>
             </div>
           </div>
+          <div className="divider max-w-[850px] mx-auto"></div>
+
+          <div className=" flex flex-col w-full md:flex-row  justify-center">
+            <div className="grid  h-auto card bg-base-300 rounded-box p-4  md:w-[405px]  ">
+              <div className="flex justify-start gap-4 items-start h-[75px] ">
+                <div className="w-14">
+                  <img
+                    src={experiences[8].companyImgURL}
+                    className="rounded w-14 mt-1"
+                  />
+                </div>
+                <div>
+                  <h3 className="text-base font-semibold">
+                    {experiences[8].job}
+                  </h3>
+                  <span className="block text-sm  font-medium  base-content ">
+                    {experiences[8].companyName}
+                  </span>
+                  <span className=" block text-[11px]">
+                    {experiences[8].date}
+                  </span>
+                </div>
+              </div>
+              <p className="text-sm h-[95px] lg:h-[75px] ">
+                {experiences[8].worked}
+              </p>
+            </div>
+            <div className="divider md:divider-horizontal"></div>
+            <div className="md:w-[405px]"></div>
+          </div>
         </div>
       </div>
     </div>

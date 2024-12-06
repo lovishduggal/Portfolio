@@ -7,6 +7,7 @@ import Onepane from '../assets/Experience/onepaneai_logo.jpg';
 import PerfectScale from '../assets/Experience/perfectscale_logo.jpg';
 import Cerbos from '../assets/Experience/cerbos.jpeg';
 import KubeOps from '../assets/Experience/kubeOps.jpeg';
+import LoftLabs from '../assets/Experience/loft.jpeg';
 export const experiences = [
   {
     companyImgURL: Smiit,
@@ -72,6 +73,13 @@ export const experiences = [
     companyName: 'KubeOps Consulting',
     date: 'Freelance',
     worked: 'Pure worked towards Devops and automation, online help and docs.',
+  },
+  {
+    companyImgURL: LoftLabs,
+    job: 'K8s Tech Writer',
+    companyName: 'Loft Labs',
+    date: 'Freelance',
+    worked: 'Tutorials and guides around multi tendency and k8s.',
   },
 ];
 
