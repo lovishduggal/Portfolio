@@ -88,6 +88,14 @@ import K8s from '../assets/Blogs/K8s.png';
 export const blogs = [
   {
     blogImgURL:
+      'https://cdn.prod.website-files.com/65a5be30bf4809bb3a2e8aff/675080f0d9cc6efc6ac37a75_1600_900.webp',
+    blogURL: 'https://www.loft.sh/blog/deploying-stateful-application-vcluster',
+    blogName: `Deploying Stateful Applications Using vCluster and Persistent Volume Integration`,
+    TechnologiesUsed: ['Kubernetes', 'vCluster', 'Persistent Volume'],
+    blogStart: `Virtual clusters are lightweight, isolated environments to run Kubernetes clusters within an existing host cluster.`,
+  },
+  {
+    blogImgURL:
       'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/67515c7e3b39b3503c16ec0d_aws-termination-notice.png',
     blogURL:
       'https://www.perfectscale.io/blog/karpenter-consolidation-spot-instance-termination',
