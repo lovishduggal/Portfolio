@@ -88,6 +88,72 @@ import K8s from '../assets/Blogs/K8s.png';
 export const blogs = [
   {
     blogImgURL:
+      'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/67515c7e3b39b3503c16ec0d_aws-termination-notice.png',
+    blogURL:
+      'https://www.perfectscale.io/blog/karpenter-consolidation-spot-instance-termination',
+    blogName: `Handling Karpenter Consolidation and Spot Instance Termination`,
+    TechnologiesUsed: ['Kubernetes', 'AWS spot instance'],
+    blogStart: `Karpenter helps us dynamically manage the lifecycle of nodes in a Kubernetes  cluster.`,
+  },
+  {
+    blogImgURL:
+      'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/673f370b8053b345faec537d_strategic-nodepool-selection.png',
+    blogURL: 'https://www.perfectscale.io/blog/nodepool-selection',
+    blogName: `Nodepool Selection Strategies: Performance vs. Cost`,
+    TechnologiesUsed: ['Kubernetes', 'Nodepool'],
+    blogStart: `Strategic Nodepool selection plays an important role in achieving the optimization of kubernetes’ performance and cost.`,
+  },
+  {
+    blogImgURL:
+      'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/67482ffd2975832afb3bf0c4_thanksgiving.png',
+    blogURL: 'https://www.perfectscale.io/blog/best-kubernetes-tools',
+    blogName: `Top K8s tools community is thankful for this Thanksgiving`,
+    TechnologiesUsed: ['Kubernetes', 'Tools'],
+    blogStart: `For this Thanksgiving, we asked the Kubernetes community about their favourite and most used tools for managing Kubernetes. `,
+  },
+  {
+    blogImgURL:
+      'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/673443473374d61e8a1eb13c_karpenter-figma.png',
+    blogURL: 'https://www.perfectscale.io/blog/karpenter',
+    blogName: `Karpenter: The Ultimate Guide`,
+    TechnologiesUsed: ['Kubernetes', 'Karpenter'],
+    blogStart: `Karpenter is an open-source, flexible, and high-performance Kubernetes cluster autoscaler developed by AWS.`,
+  },
+  {
+    blogImgURL:
+      'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/6729aaff8893750171ba9a05_etcd-banner.png',
+    blogURL: 'https://www.perfectscale.io/blog/etcd-8gb',
+    blogName: `Why the etcd Database Size Should Not Exceed 8GB?`,
+    TechnologiesUsed: ['Kubernetes', 'etcd'],
+    blogStart: `etcd is a distributed key-value store that provides a way to store data across a cluster of machines.`,
+  },
+  {
+    blogImgURL:
+      'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/671f7ca43d27dc48dc453386_Group%201000001377.png',
+    blogURL:
+      'https://www.perfectscale.io/blog/kubernetes-cpu-limit-best-practises',
+    blogName: `Kubernetes CPU Limit: Best Practices for Optimal Performance`,
+    TechnologiesUsed: ['Kubernetes', 'CPU Limit'],
+    blogStart: `Kubernetes CPU limits specify the maximum amount of CPU resources that a container can use.`,
+  },
+  {
+    blogImgURL:
+      'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/670e8be764ed2960e0160a56_healthchecks.png',
+    blogURL: 'https://www.perfectscale.io/blog/kubernetes-health-check',
+    blogName: `Kubernetes Health Checks: Ensure Performance and Availability`,
+    TechnologiesUsed: ['Kubernetes', 'Health Checks'],
+    blogStart: `Kubernetes Health check is crucial for maintaining optimal application availability and performance. `,
+  },
+  {
+    blogImgURL:
+      'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/6704d4704b9aa737d0e43ddf_k8s-secrets-banner.png',
+    blogURL: 'https://www.perfectscale.io/blog/kubernetes-secrets',
+    blogName: `Understanding Kubernetes Secrets: A Comprehensive Guide`,
+    TechnologiesUsed: ['Kubernetes', 'Secrets'],
+    blogStart: `Kubernetes Secrets are objects designed to store and manage sensitive information. By using Secrets, you can avoid embedding sensitive data directly in your application code or container images, thereby reducing the risk of accidental exposure. `,
+  },
+  {
+    blogImgURL:
       'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/66fb9b9634e3e936a66b70a7_Frame%20313955.png',
     blogURL: 'https://www.perfectscale.io/blog/karpenter-vs-cluster-autoscaler',
     blogName: `Karpenter vs Cluster Autoscaler: Choosing the Right Kubernetes Scaling Strategy`,
