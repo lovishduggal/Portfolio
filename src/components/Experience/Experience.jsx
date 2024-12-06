@@ -250,8 +250,6 @@ function Experience() {
                 {experiences[8].worked}
               </p>
             </div>
-            <div className="divider md:divider-horizontal"></div>
-            <div className="md:w-[405px]"></div>
           </div>
         </div>
       </div>

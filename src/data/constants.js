@@ -79,7 +79,7 @@ export const experiences = [
     job: 'K8s Tech Writer',
     companyName: 'Loft Labs',
     date: 'Freelance',
-    worked: 'Tutorials and guides around multi tendency and k8s.',
+    worked: 'Tutorials and guides around multi-tenancy and k8s.',
   },
 ];
 
