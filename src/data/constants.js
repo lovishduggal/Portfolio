@@ -88,6 +88,70 @@ import K8s from '../assets/Blogs/K8s.png';
 export const blogs = [
   {
     blogImgURL:
+      'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/67975bc6c281f588c2c1ec1c_Group%201000001572.png',
+    blogURL: 'https://www.perfectscale.io/blog//kubernetes-scheduling',
+    blogName: `Kubernetes Scheduling: How It Works and Key Factors`,
+    TechnologiesUsed: [
+      'Kubernetes Scheduling',
+      'Kubernetes',
+      'Scoring functions',
+      'NodeSelector',
+    ],
+    blogStart: `When setting up a Kubernetes cluster, choosing the right node size for the cluster can impact both performance and cost efficiency.`,
+  },
+  {
+    blogImgURL:
+      'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/677deab52d1d8a99efbe7e0b_hvssmallnodes.png',
+    blogURL: 'https://www.perfectscale.io/blog/kubernetes-node',
+    blogName: `Kubernetes Node: Huge Nodes vs. Small Nodes`,
+    TechnologiesUsed: ['Kubernetes Node', 'Huge Nodes', 'Small Nodes'],
+    blogStart: `When setting up a Kubernetes cluster, choosing the right node size for the cluster can impact both performance and cost efficiency.`,
+  },
+  {
+    blogImgURL:
+      'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/677cb3211b808caec4439215_Group%201000001557.png',
+    blogURL: 'https://www.perfectscale.io/blog/keda',
+    blogName: `Guide to KEDA (Kubernetes Event-Driven Autoscaler)`,
+    TechnologiesUsed: [
+      'Kubernetes',
+      'KEDA',
+      'Event-Driven Autoscaler',
+      'Cron-based scaling',
+    ],
+    blogStart: `In this article, we will introduce KEDA (Kubernetes Event-Driven Autoscaler), and walk through an example of using KEDA for Cron-based scaling.`,
+  },
+  {
+    blogImgURL:
+      'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/677379d32622dc85aa77b1f0_penelope.png',
+    blogURL: 'https://www.perfectscale.io/blog/kubernetes-v1-32-penelope',
+    blogName: `Kubernetes v1.32: What's New and Improved?`,
+    TechnologiesUsed: ['Kubernetes'],
+    blogStart: `Kubernetes v1.32, codenamed "Penelope," arrives as the final release of Kubernetes’ first decade, symbolizing a reflective yet forward-thinking milestone in its development journey.`,
+  },
+  {
+    blogImgURL:
+      'https://cdn.prod.website-files.com/635e4ccf77408db6bd802ae6/67680009a5ce67675d123119_KC-CNC-India-24-Social-Snackable.avif',
+    blogURL: 'https://www.perfectscale.io/blog/kubecon-india-2024',
+    blogName: `KubeCon India 2024 Highlights`,
+    TechnologiesUsed: [
+      'Kubernetes',
+      'AI',
+      'LLMs',
+      'Cell-Based Architecture',
+      'PerfectScale',
+    ],
+    blogStart: `We just got back from the amazing KubeCon 2024 in Delhi, India, and we’re excited to share everything we learned, experienced, and look forward to in the cloud-native world.`,
+  },
+  {
+    blogImgURL:
+      'https://cdn.prod.website-files.com/65a5be30bf4809bb3a2e8aff/677cb5184330087a8d43a9bf_Frame_1.webp',
+    blogURL: 'https://www.loft.sh/blog/kubernetes-rbac-with-vcluster',
+    blogName: `Kubernetes RBAC: Simplifying Permissions and Security with vCluster`,
+    TechnologiesUsed: ['Kubernetes', 'vCluster', 'Multi-tenancy'],
+    blogStart: `Role-Based Access Control (RBAC) is an important concept and way of Kubernetes security with the help of which we control what users and workloads can do within the cluster.`,
+  },
+  {
+    blogImgURL:
       'https://cdn.prod.website-files.com/65a5be30bf4809bb3a2e8aff/675080f0d9cc6efc6ac37a75_1600_900.webp',
     blogURL: 'https://www.loft.sh/blog/deploying-stateful-application-vcluster',
     blogName: `Deploying Stateful Applications Using vCluster and Persistent Volume Integration`,
