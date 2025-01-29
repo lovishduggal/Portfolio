@@ -63,13 +63,16 @@ function Testimonial() {
         <div className="flex items-center justify-center">
           <div className="carousel carousel-center rounded-box gap-4 w-full max-w-5xl">
             {testimonials.map((testimonial) => (
-              <div key={testimonial.message} className="carousel-item w-1/3">
+              <div
+                key={testimonial.message}
+                className="carousel-item w-full sm:w-1/2 lg:w-1/3"
+              >
                 <div
                   className="h-[280px] card bg-base-300 rounded-box place-items-center justify-center p-4 tooltip w-full"
                   data-tip="hello"
                 >
                   {' '}
-                  <div className="w-[280px] flex items-center justify-center flex-col gap-4">
+                  <div className="w-full sm:w-[280px] flex items-center justify-center flex-col gap-4">
                     <div className="avatar">
                       <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                         <img src={testimonial.imgURL} />
