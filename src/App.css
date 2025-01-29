@@ -284,3 +284,12 @@ button:hover ~ .main-cursor,
   backface-visibility: hidden;
   will-change: transform;
 }
+
+/* Add this after the existing styles */
+#About,
+#Experience,
+#Services,
+#Blog,
+#Contact {
+  scroll-margin-top: 5rem; /* Adjust this value based on your navbar height */
+}
