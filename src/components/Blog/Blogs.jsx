@@ -48,10 +48,10 @@ function Blogs() {
                       animationFillMode: 'forwards',
                     }}
                   >
-                    <div className="card w-64  bg-base-100 shadow-xl h-[389px]">
+                    <div className="card w-64 bg-base-100 shadow-xl h-[389px]">
                       <figure>
                         <img
-                          className="h-[134px] w-[255px]"
+                          className="h-[134px] w-[255px] object-cover"
                           src={blog.blogImgURL}
                           alt={blog.blogName}
                           width={255}
@@ -59,7 +59,7 @@ function Blogs() {
                         />
                       </figure>
                       <div className="card-body p-4 space-y-1">
-                        <h3 className="card-title break-normal text-base">
+                        <h3 className="card-title break-normal text-base h-12 line-clamp-2">
                           {blog.blogName}
                         </h3>
                         <div className="card-actions justify-start">
@@ -72,7 +72,7 @@ function Blogs() {
                             </div>
                           ))}
                         </div>
-                        <p className="text-sm flex break-all">
+                        <p className="text-sm line-clamp-4 h-20">
                           {blog.blogStart}
                         </p>
                       </div>
@@ -121,16 +121,18 @@ function Blogs() {
                         animationFillMode: 'forwards',
                       }}
                     >
-                      <div className="card w-64  bg-base-100 shadow-xl h-[389px]">
+                      <div className="card w-64 bg-base-100 shadow-xl h-[389px]">
                         <figure>
                           <img
-                            className="h-[134px] w-[255px]"
+                            className="h-[134px] w-[255px] object-cover"
                             src={blog.blogImgURL}
                             alt={blog.blogName}
+                            width={255}
+                            height={134}
                           />
                         </figure>
                         <div className="card-body p-4 space-y-1">
-                          <h3 className="card-title break-normal text-base">
+                          <h3 className="card-title break-normal text-base h-12 line-clamp-2">
                             {blog.blogName}
                           </h3>
                           <div className="card-actions justify-start">
@@ -143,7 +145,7 @@ function Blogs() {
                               </div>
                             ))}
                           </div>
-                          <p className="text-sm flex break-all">
+                          <p className="text-sm line-clamp-4 h-20">
                             {blog.blogStart}
                           </p>
                         </div>
@@ -193,16 +195,18 @@ function Blogs() {
                         animationFillMode: 'forwards',
                       }}
                     >
-                      <div className="card w-64  bg-base-100 shadow-xl h-[389px]">
+                      <div className="card w-64 bg-base-100 shadow-xl h-[389px]">
                         <figure>
                           <img
-                            className="h-[134px] w-[255px]"
+                            className="h-[134px] w-[255px] object-cover"
                             src={blog.blogImgURL}
                             alt={blog.blogName}
+                            width={255}
+                            height={134}
                           />
                         </figure>
                         <div className="card-body p-4 space-y-1">
-                          <h3 className="card-title break-normal text-base">
+                          <h3 className="card-title break-normal text-base h-12 line-clamp-2">
                             {blog.blogName}
                           </h3>
                           <div className="card-actions justify-start">
@@ -215,7 +219,7 @@ function Blogs() {
                               </div>
                             ))}
                           </div>
-                          <p className="text-sm flex break-all">
+                          <p className="text-sm line-clamp-4 h-20">
                             {blog.blogStart}
                           </p>
                         </div>
