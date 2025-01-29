@@ -63,8 +63,8 @@ body {
 }
 
 .cursor-dot {
-  width: 5px;
-  height: 5px;
+  width: 20px;
+  height: 20px;
   background-color: var(--primary);
   position: fixed;
   border-radius: 50%;
@@ -91,8 +91,8 @@ body {
 
 /* Interactive States */
 .cursor-pointer {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background-color: rgba(var(--primary), 0.1);
   border-width: 3px;
   mix-blend-mode: difference;
@@ -223,8 +223,8 @@ button:hover ~ .custom-cursor,
 
 /* Main cursor dot */
 .main-cursor {
-  width: 8px;
-  height: 8px;
+  width: 20px;
+  height: 20px;
   background-color: white;
   position: fixed;
   border-radius: 50%;

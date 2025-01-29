@@ -1,0 +1,8 @@
+.footer-icon {
+  fill: currentColor; /* Ensures the icon color matches the text color */
+  transition: transform 0.2s; /* Adds a hover effect */
+}
+
+.footer-icon:hover {
+  transform: scale(1.1); /* Slightly enlarges the icon on hover */
+}

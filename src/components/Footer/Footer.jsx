@@ -1,5 +1,7 @@
 import { FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import './Footer.css';
+
 function Footer() {
   return (
     <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
@@ -13,21 +15,17 @@ function Footer() {
       <nav>
         <div className="grid grid-flow-col gap-4">
           <Link to="https://twitter.com/taniadtwt" target="blank">
-            {' '}
-            <FaTwitter className="fill-current cursor-pointer" size={'24px'} />
+            <FaTwitter className="footer-icon" size={'24px'} />
           </Link>
 
           <Link to="https://www.instagram.com/taniaduggal_60/" target="blank">
-            <FaInstagram
-              className="fill-current cursor-pointer"
-              size={'24px'}
-            />
+            <FaInstagram className="footer-icon" size={'24px'} />
           </Link>
           <Link
             to="https://www.linkedin.com/in/tania-duggal-07a297220/"
             target="blank"
           >
-            <FaLinkedin className="fill-current cursor-pointer" size={'24px'} />
+            <FaLinkedin className="footer-icon" size={'24px'} />
           </Link>
         </div>
       </nav>
