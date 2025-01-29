@@ -485,7 +485,7 @@ export const testimonials = [
 
 //* Companies Logos:
 import SmiitLogo from '../assets/Companies/smiit.png';
-import weMakesDevsLogo from '../assets/companies/we-makes-dev.png';
+import weMakesDevsLogo from '../assets/Companies/we-makes-dev.png';
 import civoLogo from '../assets/Companies/civo.png';
 import kubesimplifyLogo from '../assets/Companies/kubesimplify.png';
 import onePaneLogo from '../assets/Companies/onepane.png';
