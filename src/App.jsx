@@ -9,21 +9,23 @@ import Testimonial from './components/Testimonials/Testimonial';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import { Toaster } from 'react-hot-toast';
+import CompanyLogos from './components/companies/companies';
 
 function App() {
-    return (
-        <Router>
-            <Nav />
-            <Hero />
-            <Experience />
-            <Services />
-            <Blogs />
-            <Testimonial />
-            <Contact />
-            <Footer />
-            <Toaster />
-        </Router>
-    );
+  return (
+    <Router>
+      <Nav />
+      <Hero />
+      <CompanyLogos />
+      <Experience />
+      <Services />
+      <Blogs />
+      <Testimonial />
+      <Contact />
+      <Footer />
+      <Toaster />
+    </Router>
+  );
 }
 
 export default App;

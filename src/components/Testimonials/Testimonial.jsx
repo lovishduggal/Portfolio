@@ -17,7 +17,7 @@ function Testimonial() {
         ) {
           carousel.scrollLeft = 0;
         }
-      }, 3000); // Slides every 3 seconds
+      }, 2000); // Slides every 3 seconds
     };
 
     startAutoScroll();
@@ -51,16 +51,10 @@ function Testimonial() {
   }, []);
 
   return (
-    <div className="max-w-7xl mx-auto my-16 mt-32 p-4">
-      <div className="space-y-8 " data-tip="hello">
+    <div className="max-w-7xl mx-auto my-16  p-4">
+      <div className="space-y-8">
         <h2 className="text-5xl font-semibold text-center w-full">
-          <span
-            className="md:tooltip tooltip-open"
-            data-tip="Shift + Mouse Wheel"
-          >
-            {' '}
-            Testimonials
-          </span>
+          Testimonials
         </h2>
         <p className="text-center md:w-[700px] mx-auto text-lg">
           Do you want to know what our amazing readers have to say? We&#39;ve
@@ -82,8 +76,8 @@ function Testimonial() {
                       </div>
                     </div>
                     <div>{testimonial.name}</div>
-                    <p className="text-center text-base h-[72px]">
-                      <p className="text-base">{testimonial.message}.</p>
+                    <p className=" text-center text-base h-[72px]">
+                      {testimonial.message}
                     </p>
                   </div>
                 </div>

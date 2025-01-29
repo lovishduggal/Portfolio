@@ -482,3 +482,58 @@ export const testimonials = [
     message: "I've seen some of your articles, they are great",
   },
 ];
+
+//* Companies Logos:
+import SmiitLogo from '../assets/Companies/smiit.png';
+import weMakesDevsLogo from '../assets/companies/we-makes-dev.png';
+import civoLogo from '../assets/Companies/civo.png';
+import kubesimplifyLogo from '../assets/Companies/kubesimplify.png';
+import onePaneLogo from '../assets/Companies/onepane.png';
+import perfectScaleLogo from '../assets/Companies/perfect-scale.png';
+import cerbosLogo from '../assets/Companies/cerbos.png';
+import kubeNineLogo from '../assets/Companies/kube-nine.png';
+import loftLabsLogo from '../assets/Companies/loft-lab.png';
+import learnK8sLogo from '../assets/Companies/learn-k8s.png';
+
+export const companies = [
+  {
+    name: 'SMIIT',
+    logo: SmiitLogo,
+  },
+  {
+    name: 'WeMakesDevs',
+    logo: weMakesDevsLogo,
+  },
+  {
+    name: 'CIVO',
+    logo: civoLogo,
+  },
+  {
+    name: 'kubesimplify',
+    logo: kubesimplifyLogo,
+  },
+  {
+    name: 'Onepane',
+    logo: onePaneLogo,
+  },
+  {
+    name: 'Perfect Scale',
+    logo: perfectScaleLogo,
+  },
+  {
+    name: 'Cerbos',
+    logo: cerbosLogo,
+  },
+  {
+    name: 'KubeNine',
+    logo: kubeNineLogo,
+  },
+  {
+    name: 'Loft Labs',
+    logo: loftLabsLogo,
+  },
+  {
+    name: 'Learn K8s',
+    logo: learnK8sLogo,
+  },
+];
