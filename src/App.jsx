@@ -10,20 +10,43 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import { Toaster } from 'react-hot-toast';
 import CompanyLogos from './components/Companies/Companies';
+import { useState, useEffect } from 'react';
+import CustomCursor from './components/CustomCursor/CustomCursor';
+import LoadingScreen from './components/LoadingScreen/LoadingScreen';
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <Router>
-      <Nav />
-      <Hero />
-      <CompanyLogos />
-      <Experience />
-      <Services />
-      <Blogs />
-      <Testimonial />
-      <Contact />
-      <Footer />
-      <Toaster />
+      <CustomCursor />
+      <LoadingScreen isLoading={isLoading} />
+      <div
+        style={{
+          opacity: isLoading ? 0 : 1,
+          transition: 'opacity 0.5s ease-in-out',
+          visibility: isLoading ? 'hidden' : 'visible',
+        }}
+      >
+        <Nav />
+        <Hero />
+        <CompanyLogos />
+        <Experience />
+        <Services />
+        <Blogs />
+        <Testimonial />
+        <Contact />
+        <Footer />
+        <Toaster />
+      </div>
     </Router>
   );
 }

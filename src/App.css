@@ -2,6 +2,7 @@
 
 * {
   font-family: 'Poppins', sans-serif;
+  cursor: none !important;
 }
 html {
   scroll-behavior: smooth;
@@ -11,6 +12,7 @@ body {
   margin: 0px !important;
   padding: 0;
   box-sizing: border-box;
+  cursor: none !important;
 }
 
 ::-webkit-scrollbar {
@@ -45,4 +47,240 @@ body {
   &:hover {
     animation-play-state: paused;
   }
+}
+
+.custom-cursor {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  transition: transform 0.1s ease;
+}
+
+.cursor-dot {
+  width: 5px;
+  height: 5px;
+  background-color: var(--primary);
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+  transition:
+    opacity 0.3s ease-in-out,
+    transform 0.1s ease-in-out;
+}
+
+.cursor-ring {
+  width: 30px;
+  height: 30px;
+  border: 2px solid var(--primary);
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99998;
+  transform: translate(-50%, -50%);
+  transition: all 0.15s ease-out;
+  mix-blend-mode: difference;
+}
+
+/* Interactive States */
+.cursor-pointer {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(var(--primary), 0.1);
+  border-width: 3px;
+  mix-blend-mode: difference;
+}
+
+.cursor-clicking {
+  transform: translate(-50%, -50%) scale(0.8);
+  background-color: rgba(var(--primary), 0.2);
+}
+
+.cursor-hidden {
+  opacity: 0;
+}
+
+/* Hover Effects for Interactive Elements */
+a:hover ~ .cursor-ring,
+button:hover ~ .cursor-ring,
+[role='button']:hover ~ .cursor-ring,
+input:hover ~ .cursor-ring,
+.clickable:hover ~ .cursor-ring {
+  width: 50px;
+  height: 50px;
+  border-width: 3px;
+  border-color: var(--primary);
+  background-color: rgba(var(--primary), 0.1);
+  mix-blend-mode: difference;
+}
+
+/* Animation for Loading and Special Elements */
+@keyframes cursorPulse {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.loading-cursor {
+  animation: cursorPulse 1s infinite;
+}
+
+/* Special Interactive Elements */
+.special-hover:hover ~ .cursor-ring {
+  animation: cursorPulse 1s infinite;
+  border-style: dashed;
+}
+
+/* Magnetic Effect for Buttons */
+button:hover ~ .cursor-ring {
+  transform: translate(-50%, -50%) scale(1.2);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Text Selection Cursor */
+*::selection {
+  background-color: var(--primary);
+  color: white;
+}
+
+/* Cursor States for Different Actions */
+.cursor-ring.dragging {
+  width: 70px;
+  height: 70px;
+  border-style: dashed;
+}
+
+.cursor-ring.scrolling {
+  width: 40px;
+  height: 40px;
+  opacity: 0.5;
+}
+
+/* Add smooth transitions for all cursor states */
+.cursor-ring,
+.cursor-dot {
+  transition:
+    width 0.3s ease,
+    height 0.3s ease,
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--base-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+}
+
+.loading-animation {
+  width: 50px;
+  height: 50px;
+  border: 3px solid var(--primary);
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Interactive elements */
+a:hover ~ .custom-cursor,
+button:hover ~ .custom-cursor,
+[role='button']:hover ~ .custom-cursor {
+  transform: translate(-50%, -50%) scale(1.5);
+}
+
+/* Reset cursor for all elements */
+* {
+  cursor: none !important;
+}
+
+/* Main cursor dot */
+.main-cursor {
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 999999;
+  mix-blend-mode: difference;
+  transition:
+    opacity 0.3s ease-in-out,
+    transform 0.1s ease-out;
+}
+
+/* Secondary cursor ring */
+.secondary-cursor {
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 999998;
+  mix-blend-mode: difference;
+  transition:
+    opacity 0.3s ease-in-out,
+    transform 0.3s ease-out;
+  margin: -20px 0 0 -20px;
+}
+
+/* Hover effects */
+a:hover ~ .secondary-cursor,
+button:hover ~ .secondary-cursor,
+[role='button']:hover ~ .secondary-cursor {
+  width: 60px;
+  height: 60px;
+  margin: -30px 0 0 -30px;
+  border-width: 3px;
+  border-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+a:hover ~ .main-cursor,
+button:hover ~ .main-cursor,
+[role='button']:hover ~ .main-cursor {
+  width: 4px;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Click animation */
+.main-cursor.clicking,
+.secondary-cursor.clicking {
+  transform: scale(0.8);
+}
+
+/* Add smooth transitions for all cursor states */
+.main-cursor,
+.secondary-cursor {
+  backface-visibility: hidden;
+  will-change: transform;
 }
