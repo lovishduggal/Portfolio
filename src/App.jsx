@@ -9,7 +9,7 @@ import Testimonial from './components/Testimonials/Testimonial';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import { Toaster } from 'react-hot-toast';
-import CompanyLogos from './components/companies/companies';
+import CompanyLogos from './components/Companies/Companies';
 
 function App() {
   return (
