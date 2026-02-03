@@ -51,7 +51,7 @@ function Testimonial() {
   }, []);
 
   return (
-    <div className="max-w-7xl mx-auto my-16  p-4">
+    <div className="max-w-7xl  mx-auto my-16  p-4">
       <div className="space-y-8">
         <h2 className="text-5xl font-semibold text-center w-full">
           Testimonials
@@ -68,7 +68,7 @@ function Testimonial() {
                 className="carousel-item w-full sm:w-1/2 lg:w-1/3"
               >
                 <div
-                  className="h-[280px] card bg-base-300 rounded-box place-items-center justify-center p-4 tooltip w-full"
+                  className="h-[380px] card bg-base-300 rounded-box place-items-center justify-center p-4 tooltip w-full"
                   data-tip="hello"
                 >
                   {' '}

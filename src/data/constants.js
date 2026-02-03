@@ -500,51 +500,40 @@ import Rajendra from '../assets/Testimonials/Rajendra.jpg';
 import Srinivas from '../assets/Testimonials/Srinivas.jpg';
 import Paakhi from '../assets/Testimonials/Paakhi.jpg';
 import Suhas from '../assets/Testimonials/Suhas.jpg';
+import Anton from '../assets/Testimonials/anton.jpg';
+import Brendan from '../assets/Testimonials/brendan.jpg';
+import Saiyam from '../assets/Testimonials/saiyam.jpg';
+import Daniel from '../assets/Testimonials/daniel.jpg';
+import Marie from '../assets/Testimonials/marie.jpg';
+
 export const testimonials = [
   {
-    name: 'Nitish',
-    imgURL: Nitish,
-    message: "Amazing Tania! That's so well written in simple language",
+    name: 'Anton Weiss',
+    imgURL: Anton,
+    message: "Tania consistently delivers high-quality Kubernetes and cloud-native content, combines strong cloud expertise with a great learning mindset, and is a pleasure to work with. I’d definitely hire her again",
   },
   {
-    name: 'Shivani',
-    imgURL: Shivani,
-    message: 'Very well explained. Great writing Tania',
+    name: 'Brendan Cooper',
+    imgURL: Brendan,
+    message: 'Tania consistently delivers high-impact, technically strong content that drives SEO, traffic, and brand visibility, while showing a clear growth mindset and deepening Kubernetes and DevOps expertise.',
   },
   {
-    name: 'Godwin',
-    imgURL: Godwin,
+    name: 'Saiyam Pathak',
+    imgURL: Saiyam,
     message:
-      'Lovely written piece. Just got to know about CNCF from this article. It was worth reading',
+      'Tania has written nice blogs for loft and she is on point with explaining the technical aspects. Definitely recommend her for technical writing and she is always willing to learn new stuff in the cloud native ecosystem.',
   },
   {
-    name: 'Kelvin',
-    imgURL: Kelvin,
-    message: `Nice blog Tania. It will help to build my project.
-           Thankyou`,
+    name: 'Daniel "phrawzty" Maher',
+    imgURL: Daniel,
+    message: `Tania excels at translating complex Kubernetes, cloud, and authorization topics into clear, high-quality content that developers actually use. I’d strongly recommend her for roles combining cloud expertise and technical writing.`,
   },
   {
-    name: 'Rajendra',
-    imgURL: Rajendra,
-    message: `Thankyou for such a nice article Tania.
-           Keep up the good work`,
+    name: 'Marie Jaksman',
+    imgURL: Marie,
+    message: `Tania brings hands-on Kubernetes expertise to her writing, consistently producing accurate, high-impact content that drives organic growth and real leads. Her speed, reliability, and technical depth make her an invaluable contributor.`,
   },
-  {
-    name: 'Srinivas',
-    imgURL: Srinivas,
-    message: "That's an awesome read Tania",
-  },
-  {
-    name: 'Paakhi',
-    imgURL: Paakhi,
-    message:
-      'Such an insightful and easily understandable content. Loved reading it',
-  },
-  {
-    name: 'Suhas',
-    imgURL: Suhas,
-    message: "I've seen some of your articles, they are great",
-  },
+
 ];
 
 //* Companies Logos:
